@@ -1,0 +1,42 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    margin-top: 7px;
+    font-family: 'Caveat', cursive;
+    background-color: white;
+}
+
+#left{
+    width: 49.5%;
+    height: 90%;
+    float: left;
+    background-color: tomato;
+}
+#right{
+    width: 49.5%;
+    height: 90%;
+    float: right;
+}
+
+
+#right img{
+    width: 400px;
+    height: 300px;
+}
+
+h1{
+    color: yellow;
+    font-family: 'Sedgwick Ave', cursive;
+    text-align: center;
+}
+
+#footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
