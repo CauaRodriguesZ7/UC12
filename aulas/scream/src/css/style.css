@@ -40,3 +40,13 @@ h1{
     float: left;
     text-align: center;
 }
+
+table{
+    margin-top: 40px;
+}
+
+td{
+    text-align: justify;
+}
+
+
