@@ -1,0 +1,14 @@
+.dpanel{
+    background-color: cadetblue;
+    width: 600px;
+    height: 400px;
+    position: relative;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 250px;
+    bottom: 150px;
+}

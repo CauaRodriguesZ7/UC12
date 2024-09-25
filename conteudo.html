@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Conteúdo</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="css/conteudo.css">
 </head>
+
 <body>
-    <h1>Lista de Conteúdos de Aulas</h1>
-    <ul>
-        <li>Aula 1 <!-- Lista 1 -->
-            <a href="aulas/Aula01/exemplo1.html">Exemplo </a>
-            <ol>
-                <li>Exercício 1</li>
-            </ol>
-        </li>
-        <li>Aula 2 <!-- Lista 2-->
-            <ol>
-                <li>Exercício 01
-                    <a href="aulas/Aula02/index.html">Imagem</a>
-                </li>
-                <li>Exercício 02</li>
-            </ol>
-        </li>
-    </ul>
+    <!-- <h1>Lista de Conteúdos de Aulas</h1> -->
+
+    <header class="container">
+    </header>
+    <main>
+        <section id="destaques">
+            <div class="container destaques">
+                <section class="busca">
+                    <h2>Busca</h2>
+                    <form>
+                        <input type="search">
+                        <input type="image">
+                    </form>
+                </section>
+                <section class="menu-conteudo">
+                    <h2>Menu</h2>
+                    <nav>
+                        <ul>
+                            <li>Aula 1 <!-- Lista 1 -->
+                                <a href="aulas/Aula01/exemplo1.html">Exemplo</a>
+                                <ol>
+                                    <li>Exercício 1</li>
+                                    <a href="aulas/Aula01/exercicio02.html">exe</a>
+                                </ol>
+                            </li>
+                            
+                            <li>Aula 2 <!-- Lista 2 -->
+                                <ol>
+                                    <li>Exercício 01
+                                        <a href="aulas/Aula02/index.html">Imagem</a>
+                                    </li>
+                                    <li>Exercício 02</li>
+                                </ol>
+                            </li>
+                        </ul>
+                    </nav>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
 </body>
+
 </html>
