@@ -32,13 +32,14 @@ h1 img{
 }
 
 .menu-opcoes ul {
-    font-size: 20px;
+    font-size: 18px;
+
 }
 
 .menu-opcoes {
     position: absolute;
     top: 10px;
-    right: 200px;
+    right: 50px;
 
 }
 
@@ -48,5 +49,63 @@ h1 img{
 
 .menu-opcoes ul li {
     display: inline;
-    margin-left: 15px;
+    margin-left: 40px;
+}
+
+.foto-redonda{
+    margin-top: 12px;
+    height: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid blueviolet ;
+    background: rgb(5,4,73);
+    background: linear-gradient(90deg, rgba(5,4,73,1) 51%, rgba(23,78,181,1)100%);
+}
+
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social {
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    margin-right: 70px;
+}
+
+.social li{
+    float: left;
+}
+
+
+.social a {
+    width: 25px;
+    height: 25px;
+    margin-left: 20px;
+}
+
+.social a[href*="linkedin.com"]{
+    background-image: url(../imagens/icons8-linkedin-24.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social a[href*="instagram.com"]{
+    background-image: url(../imagens/icons8-instagram-24.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
+}
+
+.social a[href*="github.com"]{
+    background-image: url(../imagens/icons8-github-24.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    display: block;
 }
