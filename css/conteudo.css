@@ -112,3 +112,31 @@ footer {
     text-indent: -9999px;
     display: block;
 }
+
+/* header a:before {
+    content: '<';
+}
+
+header a:after {
+    content: '>';
+} */
+
+header a:hover {
+    color: blue;
+}
+
+header a:active {
+    color: brown;
+}
+
+.menu-conteudo li ul {
+    display: none;
+}
+
+.menu-conteudo li:hover ul {
+    display: block;
+}
+
+.menu-conteudo ul ul li {
+    background-color: brown;
+}
