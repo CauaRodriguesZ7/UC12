@@ -11,6 +11,17 @@ body{
     background-color: white;
 }
 
+table tr th {
+    text-align: end;
+    border-bottom: solid 1px;
+    font-family: 'caveat', cursive;
+
+}
+
+table tr td {
+    border-bottom: solid 1px;
+}
+
 #left{
     width: 49.5%;
     height: 90%;
