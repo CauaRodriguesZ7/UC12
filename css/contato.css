@@ -8,4 +8,57 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #725AC1;
 }
+
+header{
+    height: 50%;
+    position: relative;
+}
+
+.menu-opcoes ul {
+    font-size: 18px;
+
+}
+
+.menu-opcoes {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+
+}
+
+.menu-opcoes a {
+    color: blueviolet;
+}
+
+.menu-opcoes ul li {
+    display: inline;
+    margin-left: 40px;
+}
+
+.button-link {
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 30px;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: #725AC1;
+    background: transparent;
+    cursor: pointer;
+    transition: ease-out 0.5s;
+    border: 2px solid #725AC1;
+    border-radius: 20px;
+    box-shadow: inset 0 0 0 0 #725AC1;
+}
+
+.button-link:hover {
+    color: white;
+    box-shadow: inset 0 -100px 0 0 #725AC1;
+  }
+  
+  .button-link:active {
+    transform: scale(0.9);
+  }
     
