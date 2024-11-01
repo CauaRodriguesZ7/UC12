@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
+    <title>Home</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
@@ -15,10 +20,8 @@
             <img class="foto-redonda" src="imagens/foto-perfil.png" alt="foto-perfil">
         </h1>
         <nav class="menu-opcoes">
-
-
             <ul>
-                <li><a class="button-link" href="blog.html">Blog</a></li>
+                <li><a class="button-link" href="blog.html">Projetos</a></li>
                 <li><a class="button-link" href="contato.html">Contato</a></li>
                 <li><a class="button-link" href="conteudo.html">Conteúdo</a></li>
             </ul>
@@ -28,17 +31,67 @@
     <main>
         <section id="destaques">
             <div class="container destaques">
-                <img id="git-banner" src="imagens/icons8-github-24.png" alt="gitbanner">
+                <h2>Cauã Rodrigues - FullStack Developer</h2>
+                <p>Seja bem vindo á minha página web!</p>
             </div>
         </section>
     </main>
-   
-    <footer class="rodade">
-        <ul class="social">
-            <li><a href="https://www.instagram.com/cauarodriguesz/?next=%2F">instagram</a></li>
-            <li><a href="www.linkedin.com/in/cauã-rodrigues-9582882b2">Linkedin</a></li>
-            <li><a href="https://github.com/CauaRodriguesZ7">Github</a></li>
-        </ul>
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <p>Doubt is the beginning of wisdom.</p>
+
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="#" class="footer-link" id="github">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <ul class="footer-list">
+                <li>
+                    <h3>Tech</h3>
+                </li>
+                <li>
+                    <a href="#">Web</a>
+                </li>
+                <li>
+                    <a href="#">Desktop</a>
+                </li>
+                <li>
+                    <a href="#">App</a>
+                </li>
+            </ul>
+
+            <div id="footer_contacts">
+                <h3>Contact</h3>
+                <p>
+                    Enter your e-mail to get notified about
+                    our news  solutions
+                </p>
+
+                <div id="input_group">
+                    <input type="email" id="email">
+                    <button>
+                        <i class="fa-regular fa-envelope"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer_copyright">
+            &#169
+            2024 all rights reserved
+        </div>
     </footer>
     <script src="js/index.js"></script>
 </body>
