@@ -85,3 +85,7 @@ p {
   .button-link:active {
     transform: scale(0.9);
   }
+
+  #mb-seja-bem-vindo{
+    margin-bottom: 5%;
+  }
