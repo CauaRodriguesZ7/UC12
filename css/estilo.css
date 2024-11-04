@@ -29,6 +29,19 @@ header{
 
 }
 
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: #725AC1;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+p {
+    text-align: center;
+    color: #ffffff8d;
+}
+
 .menu-opcoes {
     margin-left: 25%;
     top: 1%;

@@ -14,6 +14,21 @@ header{
     position: relative;
 }
 
+.foto-redonda{
+    margin-left: 5%;
+    margin-top: 18px;
+    height: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid blueviolet ;
+    background: rgb(5,4,73);
+    background: linear-gradient(90deg, rgba(5,4,73,1) 51%, rgba(23,78,181,1)100%);
+}
+
+#informacoes-pessoais #nome-titulo {
+   
+}
+
 .menu-opcoes ul {
     font-size: 18px;
 
@@ -27,7 +42,7 @@ header{
 }
 
 .menu-opcoes a {
-    color: blueviolet;
+    color: #725AC1;
 }
 
 .menu-opcoes ul li {

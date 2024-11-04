@@ -36,35 +36,67 @@
     </div>
   </header>
   <main>
-    <h1 id="titulo">Tecnologia na Música</h1>
+    <h1 id="titulo">Tecnologia na Música Moderna</h1>
     <p id="p1">A tecnologia desempenha um papel crucial na música,
       desde a criação até<br> a distribuição e a experiência do
       ouvinte. Vamos ver como ela impacta cada aspecto:</p>
 
-      <div class="container px-4 py-5" id="hanging-icons">
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              
-            </div>
+      <div class="slider">
+
+        <div class="slides">
+          <!--Radio Buttons-->
+          <input type="radio" name="radio-btn" id="radio1">
+          <input type="radio" name="radio-btn" id="radio2">
+          <input type="radio" name="radio-btn" id="radio3">
+          <input type="radio" name="radio-btn" id="radio4">
+          <!--Fim Radio Buttons-->
+
+          <!-- Slide Images-->
+           <div class="slide first">
+            <img src="img/artist-learning-play-acoustic-instrument-home-studio.jpg" alt="Imagem 1">
+           </div>
+           <div class="slide">
+            <img src="img/digital-mixer-recording-studio-with-computer-recording-music-background-sound-engineer-work-concept-creativity-show-business.jpg" alt="Imagem 2">
+           </div>
+           <div class="slide">
+            <img src="img/joyful-pleased-music-producer-enjoying-his-high-quality-track-control-room.jpg" alt="Imagem 3">
+           </div>
+           <!--Fim slide  imagens-->
+
+           <!--Navigation auto-->
+           <div class="navigation-auto">
+            <div class="auto-btn1"></div>
+            <div class="auto-btn2"></div>
+            <div class="auto-btn3"></div>
+            <div class="auto-btn4"></div>
+           </div>
+
+        </div>
+
+          <!-- <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+          </div> -->
+      </div>
+
+      <div class="container px-4" id="hanging-icons">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3 height-div">
+        
+          <div class="col d-flex align-items-start">            
             <div class="elementos">
               <h3 class="titulo-elementos" class="fs-2 text-body-emphasis">Criação Musical</h3>
               <p>A forma como os músicos criam música mudou drasticamente com o desenvolvimento de ferramentas digitais, como softwares de produção e instrumentos eletrônicos.</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-            
-            </div>
+          <div class="col d-flex align-items-start">            
             <div class="elementos">
               <h3 class="titulo-elementos" class="fs-2 text-body-emphasis">Gravação e Produção</h3>
               <p>As gravações de alta qualidade podem ser feitas em estúdios caseiros, com microfones conectados a interfaces de áudio, eliminando a necessidade de estúdios caros. Isso democratizou a produção musical, permitindo que artistas independentes tenham as mesmas ferramentas de grandes produtores.</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start">
-            <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-              
-            </div>
+          <div class="col d-flex align-items-start">           
             <div class="elementos">
               <h3 class="titulo-elementos" class="fs-2 text-body-emphasis">Impacto na Indústria Musical</h3>
               <p> A transição de vendas físicas para streaming trouxe desafios e oportunidades. Artistas ganham dinheiro através de assinaturas de streaming e publicidade, mas a remuneração por stream é baixa, o que exige novas formas de receita, como venda de merchandising, ingressos para shows e parcerias comerciais.</p>
@@ -89,6 +121,8 @@
   </div>
 
   <div class="b-example-divider"></div>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
