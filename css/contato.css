@@ -10,13 +10,13 @@ body {
 }
 
 header{
-    height: 50%;
+    height: 60%;
     position: relative;
 }
 
 .foto-redonda{
-    margin-left: 5%;
-    margin-top: 18px;
+    margin-left: 4%;
+    margin-top: 20px;
     height: 300px;
     height: 300px;
     border-radius: 50%;
@@ -25,13 +25,18 @@ header{
     background: linear-gradient(90deg, rgba(5,4,73,1) 51%, rgba(23,78,181,1)100%);
 }
 
-#informacoes-pessoais #nome-titulo {
-   
+#nome-titulo {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+#informacoes-pessoais {
+   text-align: center;
 }
 
 .menu-opcoes ul {
     font-size: 18px;
-
 }
 
 .menu-opcoes {
